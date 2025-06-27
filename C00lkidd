@@ -1,4 +1,9 @@
---[[
+for i, v in pairs(game.Workspace:GetDescendants()) do
+        emit = Instance.new("ParticleEmitter")
+        emit.Parent = v
+            emit.Texture = "http://www.roblox.com/asset/?id=158118263"
+        emit.VelocitySpread = 5
+        end--[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 -- SCRIPT DE EVENTO TEMPORAL
